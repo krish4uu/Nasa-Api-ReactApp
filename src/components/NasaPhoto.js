@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from "react";
-import NavBar from "./Navbar";
+
 import DateInput from "./DateInput";
 import { AiOutlineHeart } from "react-icons/ai";
 import Loader from "./Loader";
-
-import Footer from "./Footer";
 
 const apiKey = process.env.REACT_APP_NASA_KEY;
 
@@ -57,7 +55,6 @@ export default function NasaPhoto() {
 
   return (
     <>
-      <NavBar />
       <DateInput changeDate={changeDate} />
       <div className="nasa-photo">
         {photoData.media_type === "image" ? (
@@ -90,9 +87,6 @@ export default function NasaPhoto() {
             </button>
           </div>
         </div>
-      </div>
-      <div>
-        <Footer />
       </div>
     </>
   );
