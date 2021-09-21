@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Nasa-Api-ReactApp/static/css/main.399c4457.chunk.css",
+    "main.js": "/Nasa-Api-ReactApp/static/js/main.d0845735.chunk.js",
+    "main.js.map": "/Nasa-Api-ReactApp/static/js/main.d0845735.chunk.js.map",
+    "runtime-main.js": "/Nasa-Api-ReactApp/static/js/runtime-main.f8a4ba27.js",
+    "runtime-main.js.map": "/Nasa-Api-ReactApp/static/js/runtime-main.f8a4ba27.js.map",
+    "static/css/2.e730c243.chunk.css": "/Nasa-Api-ReactApp/static/css/2.e730c243.chunk.css",
+    "static/js/2.59c2bafd.chunk.js": "/Nasa-Api-ReactApp/static/js/2.59c2bafd.chunk.js",
+    "static/js/2.59c2bafd.chunk.js.map": "/Nasa-Api-ReactApp/static/js/2.59c2bafd.chunk.js.map",
+    "static/js/3.ba61ce72.chunk.js": "/Nasa-Api-ReactApp/static/js/3.ba61ce72.chunk.js",
+    "static/js/3.ba61ce72.chunk.js.map": "/Nasa-Api-ReactApp/static/js/3.ba61ce72.chunk.js.map",
+    "index.html": "/Nasa-Api-ReactApp/index.html",
+    "static/css/2.e730c243.chunk.css.map": "/Nasa-Api-ReactApp/static/css/2.e730c243.chunk.css.map",
+    "static/css/main.399c4457.chunk.css.map": "/Nasa-Api-ReactApp/static/css/main.399c4457.chunk.css.map",
+    "static/js/2.59c2bafd.chunk.js.LICENSE.txt": "/Nasa-Api-ReactApp/static/js/2.59c2bafd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f8a4ba27.js",
+    "static/css/2.e730c243.chunk.css",
+    "static/js/2.59c2bafd.chunk.js",
+    "static/css/main.399c4457.chunk.css",
+    "static/js/main.d0845735.chunk.js"
+  ]
+}
