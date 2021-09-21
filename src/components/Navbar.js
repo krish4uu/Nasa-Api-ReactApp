@@ -1,14 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { GiRocketFlight } from "react-icons/gi";
 
 export default function NavBar() {
   return (
     <div className="navbar">
-      <ul>
-        <Link className="link" to="/" exact>
-          Back to Home
-        </Link>
-      </ul>
+      <div>
+        <h1 className="home-header">
+          Spacegram
+          {""}
+          <GiRocketFlight style={{ marginLeft: "5px" }} />
+        </h1>
+      </div>
     </div>
   );
 }
