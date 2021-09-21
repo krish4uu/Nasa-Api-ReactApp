@@ -1,38 +1,212 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&family=Special+Elite&display=swap");
+
+body {
+  font-family: "Special Elite", cursive;
+  color: #112b3c;
+  line-height: 1.5;
+  font-size: 2.5vh;
+  max-width: 100vw;
+  background: #1a485b;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Navbar component */
+
+.navbar {
+  background-color: rgba(17, 35, 46, 0.8);
+  display: flex;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.link {
+  color: #efefef;
+  display: flex;
+  padding: 3px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: 0.3s ease all;
+  margin-right: 7vw;
+}
+
+.link:hover {
+  color: #2e6075;
+  transform: scale(1.1);
+}
+
+/* Nasaphoto component */
+
+.nasa-photo {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px;
+  margin: 0 5px;
+  max-height: 100%;
+  font-family: "Sawarabi Mincho", sans-serif;
+  box-shadow: 9px 9px 18px #041b21, -9px -9px 18px #042129;
+  border-radius: 67px;
+}
+
+.nasa-photo img,
+iframe {
+  width: 40vw;
+  margin-right: 50px;
+  object-fit: contain;
+  max-height: 80vh;
+}
+
+.nasa-photo h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.nasa-photo .date {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.nasa-photo .explanation {
+  color: #bbb;
+}
+
+@media (max-width: 1280px) {
+  .nasa-photo {
+    display: block;
+  }
+
+  .nasa-photo img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Nasaphoto like button */
+
+.like-button-false,
+.like-div,
+.like-button-true {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  font-family: "Sawarabi Mincho", sans-serif;
+  width: 100%;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 20px;
+  border-style: none;
+}
+
+.like-button-true {
+  background-color: #112b3c;
+}
+
+.like-button-false:hover {
+  background-color: #112b3c;
+  color: whitesmoke;
+}
+
+/* Home component */
+
+.home {
+  display: flex;
+  padding-top: 0.5rem;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.home-header {
+  display: flex;
+  justify-content: center;
+  font-size: 6vh;
+  color: whitesmoke;
+  margin: 30vh 0 0 1rem;
+}
+
+.home-link {
+  font-size: 3.5vh;
+  background: #112b3c;
+  display: flex;
+  justify-content: space-evenly;
+  width: 43vw;
+  padding: 40px;
+  color: #ddd;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: 0.3s ease all;
+  text-transform: uppercase;
+}
+
+.home-link:hover {
+  border-radius: 5px;
+  background: #112b3c;
+}
+
+/* Dateinput component */
+
+.dateInput {
+  display: flex;
+  justify-content: center;
+  max-height: 4rem;
+  margin: 2rem;
+}
+
+.responsive-calendar {
+  margin-left: 3vh;
+}
+
+.submit-button {
+  font-family: "Special Elite", cursive;
+  border-radius: 20px;
+  padding: 0 1rem;
+  margin-left: 4px;
+  border-style: none;
+}
+
+.submit-button:hover {
+  background-color: #112b3c;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Loader component */
+
+.loader {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loader-para {
+  display: flex;
+  justify-content: center;
+  font-size: 2vh;
+  width: 100%;
+  color: whitesmoke;
+  margin: 12vh 4vh 0 4vh;
+  position: absolute;
+}
+
+/* Footer component */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
+  color: #bbb;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: #1a485b;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-social {
+  display: flex;
+  padding: 0.3rem 0 0 0.5rem;
+  font-size: 1.5rem;
+  color: #bbb;
+}
+
+.footer-social:hover {
+  color: #112b3c;
 }
